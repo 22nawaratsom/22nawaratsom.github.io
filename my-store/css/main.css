@@ -9,17 +9,38 @@ body {
   margin: 0px auto;
 }
 
-.section {
-  margin-bottom: 64px;
-}
-
 .section-title {
   font-size: 32px;
   font-weight: 600;
   margin-bottom: 24px;
 }
 
+.section {
+  margin-bottom: 64px;
+}
+
 /*---- Menu ----*/
+.logo {
+  height: 20px;
+}
+
+.menu-bar {
+  display: flex;
+  justify-content: space-between;
+  height: 72px;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  z-index: 1;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-item {
+  margin-left: 24px;
+}
 
 /*---- Hero Section ----*/
 .hero-title {
@@ -80,24 +101,64 @@ body {
 }
 
 /*---- Product Section ----*/
-.product-item {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 16px;
-}
-
-.product-item-image {
-  width: calc(100% / 3);
-  border-radius: 18px;
-  margin-bottom: 12px;
-}
 .product-item-title {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 8px;
 }
 
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px -30px;
+}
+
+.product-label {
+  background-color: #f87060;
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 12px;
+  width: fit-content;
+  top: 24px;
+  left: 8px;
+  position: absolute;
+}
+
+.product-item {
+  width: calc(90% / 3);
+  margin-bottom: 16px;
+  padding: 0px 16px;
+  position: relative;
+}
+
+.product-item-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 18px;
+  object-fit: cover;
+}
+
 .price {
   margin-top: 24px;
 }
+
 /*---- About Section ----*/
+.about-content {
+  display: flex;
+}
+
+.about-info {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.about-image {
+  height: 320px;
+  width: 50%;
+  object-fit: cover;
+}

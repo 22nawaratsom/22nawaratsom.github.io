@@ -1,0 +1,15 @@
+.
+
+/* Blog Head */
+h1{
+    display: flex;
+    justify-content: right;
+    margin: auto;
+}
+
+.about-description{
+    justify-content: flex-end
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
