@@ -1,0 +1,55 @@
+body {
+    font-family: "Asap";
+}
+
+.navbar-logo{
+    justify-content: flex-start;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+.h1 {
+    font-size: 20px;
+    color: #2e76b5;
+}
+
+left {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.row {
+    font-size: 18px;
+    color: #2e76b5;
+    justify-content: space-between;
+}
+
+.h2 {
+    color: #0000;
+}
+
+progress {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.dataday {
+    display: flex;
+}
+
+.daygroup {
+    display: flex;
+    font-size: 16px;
+    color: #ffff;
+    background-color: #2e76b5;
+    width: fit-content;
+    margin: 10px;
+    padding: 10px 10px 10px 10px;
+
+}
